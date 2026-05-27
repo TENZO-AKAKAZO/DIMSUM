@@ -1,0 +1,289 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Sans-Serif;
+  background-color: #e2e0cd;
+  
+}
+
+nav{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  background-color: #333;
+  border-radius: 0px 0px 10px 10px;
+  z-index: 3;
+  position: sticky;
+  top:0;
+}
+
+.identitas
+{
+  display: flex;
+}
+
+.logo{
+  width: 40px ;
+  height: 40px ;
+  border-radius: 50%;
+}
+
+.nama{
+  font-size: 20px;
+  font-weight: 900;
+  color: salmon;
+  margin: 5px;
+  font-family: tahoma;
+  
+}
+
+.navbar{
+  display: flex;
+  flex-direction: column;
+}
+
+span{
+  background-color: #972;
+  height: 2px;
+  width: 36px;
+  margin: 0px 10px 0px 0px;
+  margin: 5px;
+}
+
+.video{
+  width: 100%;
+  height: 100%;
+  margin-top:-8px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.foto{
+  text-align: center;
+}
+
+.siluet{
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  opacity: 0.7;
+  margin-top: -400px;
+}
+
+.sambutan{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.spasi{
+  padding-top: 100px;
+}
+
+.luar{
+  padding: 10px;
+}
+
+.keunggulan{
+  background-color: #E4BF6F;
+  display: flex;
+  padding: 30px 30px 30px 0px;
+  border-radius: 20px;
+}
+
+.video-chef{
+  width: 40%;
+  border-right: .2px solid #000;
+}
+
+.deskripsi{
+  padding: 10px ;
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+line-height: 1.6;
+color: #2c2c2c;
+transform: translateY(5%);
+}
+
+.foto-kartun-dimsum{
+  width: 40%;
+  border-left: .2px solid #000;
+}
+
+.toko{
+    width: 40%;
+  border-right: .2px solid #000;
+}
+
+.hijau{
+  background-color: #CDFDD6;
+  display: flex;
+  padding: 30px 30px 30px 0px;
+  border-radius: 20px;
+}
+
+.label{
+  background-color: #CDFDD6;
+  display: flex;
+  padding: 30px 30px 30px 0px;
+  border-radius: 20px;
+}
+
+.halal{
+  width: 40%;
+  border-left: .2px solid #000;
+}
+
+.awal-banget{
+  padding: 10px;
+}
+
+.awal-kurir{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.tujuan-kurir{
+  padding: 10px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.history {
+  padding: 90px 20px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.awal-dari-semua{
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.history-container {
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+}
+
+.history-label {
+  display: inline-block;
+  background: #ffe0b2;
+  color: #d35400;
+  padding: 8px 18px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.history h2 {
+  font-size: 42px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.history p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.9;
+  margin-bottom: 22px;
+}
+
+.video-awal-banget
+  display: flex;
+  padding: 200px;
+}
+
+.video-awal{
+  display: flex;
+}
+
+.sejarah{
+  width: 95%;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+}
+
+h3{
+  padding: 30px 0px 0px 20px;
+}
+
+.awal-peta{
+  padding: 0px 13px 13px 13px;
+}
+
+.peta{
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.link-map{
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 15px 1px 15px 1px;
+  background-color: #E4BF6F;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.galeri {
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll-otomatis {
+  display: flex;
+  width: max-content;
+  animation: geser 10s linear infinite;
+}
+
+.galeri-dimsum {
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+@keyframes geser {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.galeri-dimsum{
+  width: 200px;
+  height: 100%;
+  padding: 10px;
+}
+
+.WA-logo{
+  float: right;
+  padding: 0px 50px 20px 0px;
+  width: 30px;
+  position: sticky;
+  bottom: 0;
+  
+}
+
+.WA{
+  width: 60px;
+}
